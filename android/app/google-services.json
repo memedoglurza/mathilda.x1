@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022024677174",
+    "project_id": "mathildax1",
+    "storage_bucket": "mathildax1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022024677174:android:ba0e555439f8994297a597",
+        "android_client_info": {
+          "package_name": "com.mathilda.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022024677174-t346pu4sjuu7qbock1k49qrdo0b1kk75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mathilda.app",
+            "certificate_hash": "9118182c72ec84aebda461fab607589dca982bc8"
+          }
+        },
+        {
+          "client_id": "1022024677174-9i3ri3enosj43nt2hm97mp979qd41bvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBztrmJBFtNAjxKx-w2ozsMBb1yMXpRvWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022024677174-9i3ri3enosj43nt2hm97mp979qd41bvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

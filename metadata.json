@@ -1,0 +1,6 @@
+{
+  "name": "Hiyeraşirk Çalışma Alanı",
+  "description": "Giriş sistemi, hiyerarşik alt sayfalar, sürükle-bırak sıralama, alfabetik sıralama ve sesli bildirim desteğine sahip özelleştirilebilir çalışma alanı portalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

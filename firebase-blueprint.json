@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "Workspace": {
+      "title": "Workspace",
+      "description": "User's hierarchical tree containing categorised items and level-4 notes",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Authenticated user's secure reference ID"
+        },
+        "username": {
+          "type": "string",
+          "description": "User's display identity"
+        },
+        "profileImage": {
+          "type": "string",
+          "description": "Reference link to bucket profile image or gradient code"
+        },
+        "items": {
+          "type": "array",
+          "description": "Nested nodes of items representing all layers and logs"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The atomic server timestamp of last update operation"
+        }
+      },
+      "required": ["userId", "username", "items", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/workspaces/{userId}": {
+      "schema": "Workspace",
+      "description": "Stores user workspace document referenced by unique secure user credentials"
+    }
+  }
+}
